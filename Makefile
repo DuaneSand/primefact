@@ -1,6 +1,4 @@
-WOKWI_PROJECT_ID=334445762078310996
-# logic puzzle and muxes
-# 4 inverters 334348818476696146
+WOKWI_PROJECT_ID=341456698237518418
 # the clock divider 334335179919196756
 fetch:
 	curl https://wokwi.com/api/projects/$(WOKWI_PROJECT_ID)/verilog > src/user_module_$(WOKWI_PROJECT_ID).v
